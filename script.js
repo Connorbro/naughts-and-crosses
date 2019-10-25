@@ -8,4 +8,5 @@ function whoWinner(){
     let box7 = document.getElementById("box7"),
     let box8 = document.getElementById("box8"),
     let box9 = document.getElementById("box9");
+    if(box1.innerHTML !==""&& box1.innerHTML ===)
 }
