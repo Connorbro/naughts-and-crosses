@@ -10,10 +10,14 @@ function whoWinner(){
      box9 = document.getElementById("box9");
     if(box1.innerHTML !=="" && box1.innerHTML === box2.innerHTML && box1.innerHTML=== box3.innerHTML);
     else if(box4.innerHTML !=="" && box4.innerHTML === box5.innerHTML && box4.innerHTML=== box6.innerHTML);
-    else if(box4.innerHTML !=="" && box4.innerHTML === box5.innerHTML && box4.innerHTML=== box6.innerHTML);
-    else if(box4.innerHTML !=="" && box4.innerHTML === box5.innerHTML && box4.innerHTML=== box6.innerHTML);
- 
- 
- 
-
+    else if(box7.innerHTML !=="" && box7.innerHTML === box8.innerHTML && box1.innerHTML=== box9.innerHTML);
+    else if(box1.innerHTML !=="" && box1.innerHTML === box4.innerHTML && box4.innerHTML=== box7.innerHTML);
+    else if(box2.innerHTML !=="" && box2.innerHTML === box5.innerHTML && box2.innerHTML=== box8.innerHTML);
+    else if(box3.innerHTML !=="" && box3.innerHTML === box6.innerHTML && box3.innerHTML=== box9.innerHTML);
+    else if(box1.innerHTML !=="" && box1.innerHTML === box5.innerHTML && box1.innerHTML=== box9.innerHTML);
+    else if(box3.innerHTML !=="" && box3.innerHTML === box5.innerHTML && box3.innerHTML=== box7.innerHTML);
+}
+let boxes = document.querySelectorAll("#main div"), X_or_O = 0;
+for(let i = 0; i < boxes.length; i++){
+    boxes[i].onclick
 }
