@@ -19,5 +19,16 @@ function whoWinner(){
 }
 let boxes = document.querySelectorAll("#main div"), X_or_O = 0;
 for(let i = 0; i < boxes.length; i++){
-    boxes[i].onclick
+    boxes[i].onclick = function(){
+        if(X_or_O%2 === 0){
+            this.innerHTML = "X";
+            whoWinner();
+        X_or_O += 1;
+    }else{
+        this.innerHTML = "O";
+        whoWinner();
+        X_or_O+=1;
+    }
+
+}
 }
