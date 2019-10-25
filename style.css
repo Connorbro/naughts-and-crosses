@@ -9,5 +9,6 @@
 }
 .container .box{
     float:left;
+    width:100px;
 
 }
