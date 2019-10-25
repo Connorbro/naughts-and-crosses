@@ -10,5 +10,15 @@
 .container .box{
     float:left;
     width:100px;
-
+    height: 100px;
+    border: 1px solid black;
+    transition: all .25s ease-in-out;
+    font-size: 80px;
+    text-align:center;
+    line-height: 100px;
+    cursor: pointer;
+}
+.container .box:hover{
+    background: rgba(10, 10, 10, 0.5);
+    color:gray
 }
